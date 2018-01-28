@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CellSizer_Example' do
+  pod 'CellSizer', :path => '../'
+
+  target 'CellSizer_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
