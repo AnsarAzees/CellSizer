@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CellSizer
 
 class ViewController: UIViewController {
 

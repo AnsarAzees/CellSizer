@@ -1,0 +1,6 @@
+framework module CellSizer {
+  umbrella header "CellSizer-umbrella.h"
+
+  export *
+  module * { export * }
+}
